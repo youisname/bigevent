@@ -2,7 +2,9 @@
 // ajaxPrefilter 这个函数 在这个函数找那个可以拿到我们给ajax提供的配置对象
 $.ajaxPrefilter(function(options) {
     //在发起真正的ajax请求前，统一拼接请求的根路径
-    options.url = 'http://ajax.frontend.itheima.net' + options.url
+    http: //api-breakingnews-web.itheima.net/
+    // options.url = 'http://api-breakingnews-web.itheima.net/' + options.url
+        options.url = 'http://www.liulongbin.top:3007' + options.url
         //统一为有权限的接口 设置 header 请求头
     if (options.url.indexOf('/my/') !== -1) {
         options.headers = {

@@ -11,7 +11,7 @@ $(function() {
 
     // 从layui中获得form对象
     var form = layui.form;
-    var layer = layui.layer;
+    // var layer = layui.layer;
     // 通过 form.verify函数 自定义校验规则
     form.verify({
             // 自定义了一个叫pwd的校验规则
